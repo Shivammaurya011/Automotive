@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Fredoka&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Image/home.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    height: 100px;
+    align-items: center;
+    overflow: hidden;
+}
+img{
+    margin-left: 100px;
+    height: 40px;
+    width: 50px;
+}
+header h1{
+    margin: 10px;
+    font-size: 40px;
+}
+header ul{
+    padding: 55px;
+    list-style: none;
+    float: right;
+}
+li{
+    display: inline-block;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 22px;
+}
+.blue{
+    background-color: #0984e3;
+    
+}
+header a:hover{
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+/* Main */
+
+main{
+    padding-top: 120px;
+    padding-left: 100px;
+    color: white;
+    margin-bottom: 50px;
+}
+h2{
+    color: #0984e3;
+    font-size: 55px;
+    font-family: 'Fredoka', sans-serif;
+}
+p{
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+main a{
+    background-color: #0984e3;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+}
+
+/* Footer */
+
+footer{
+    position: fixed;
+    bottom: -25px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    padding-top: 15px;
+}
+h4{
+    color: #0984e3;
+}
